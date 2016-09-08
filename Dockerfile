@@ -48,6 +48,8 @@ RUN rbenv install $RUBY_VERSION \
 
 RUN gem install bundler tzinfo-data
 
+RUN mkdir /app
+
 # Rails Deployment
 #
 # RUN mkdir /app
