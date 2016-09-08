@@ -47,12 +47,15 @@ RUN rbenv install $RUBY_VERSION \
 &&  rbenv global $RUBY_VERSION
 
 RUN gem install bundler tzinfo-data
-RUN mkdir /app
-COPY Gemfile /app/
-COPY Gemfile.lock /app/
 
-WORKDIR /app
-RUN bundle install
-
-COPY . /app
-CMD rails s -b 0.0.0.0
+# Rails Deployment
+#
+# RUN mkdir /app
+# COPY Gemfile /app/
+# COPY Gemfile.lock /app/
+#
+# WORKDIR /app
+# RUN bundle install
+#
+# COPY . /app
+# CMD rails s -b 0.0.0.0
