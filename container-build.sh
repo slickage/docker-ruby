@@ -1,1 +1,2 @@
-docker build -t slickage/rails .
+#!/bin/bash
+docker build -t slickage/ruby .
