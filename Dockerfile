@@ -20,7 +20,7 @@ RUN apk add --update \
 
 ENV PATH /usr/local/rbenv/shims:/usr/local/rbenv/bin:$PATH
 ENV RBENV_ROOT /usr/local/rbenv
-ENV RUBY_VERSION 2.3.1
+ENV RUBY_VERSION 2.3.2
 ENV CONFIGURE_OPTS --disable-install-doc
 
 ENV BUILD_PACKAGES \
