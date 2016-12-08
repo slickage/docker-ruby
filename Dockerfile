@@ -5,6 +5,7 @@ RUN apk add --update \
     bash \
     build-base \
     curl \
+    file \
     git \
     nodejs \
     openssl-dev \
