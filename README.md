@@ -5,4 +5,4 @@ dependencies.
 
 # Instructions
 
-`docker build -t slickage/rails-min .`
+`docker build -t slickage/ruby .`
