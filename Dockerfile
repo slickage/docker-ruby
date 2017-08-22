@@ -8,7 +8,7 @@ RUN apk add --update \
     file \
     git \
     nodejs \
-    openssl-dev \
+    libressl-dev \
     readline-dev \
     vim \
     wget \
